@@ -1,6 +1,7 @@
 # CC-2-exp4 (24BDA70064)
 ## PROBLEM STATEMENT: 33. Search in Rotated Sorted Array
 class Solution:
+
     def search(self, nums, target):
         left = 0
         right = len(nums) - 1

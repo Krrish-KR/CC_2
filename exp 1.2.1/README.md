@@ -1,6 +1,7 @@
 # CC-2-exp3 (24BDA70064)
 ## PROBLEM STATEMENT: 35. Search Insert Position
 class Solution:
+
     def searchInsert(self, nums, target):
         left, right = 0, len(nums) - 1
         

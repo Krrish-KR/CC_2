@@ -1,6 +1,7 @@
 # CC-2-exp2 (24BDA70064)
 ## PROBLEM STATEMENT: 238. Product of Array Except Self
 class Solution:
+
     def productExceptSelf(self, nums):
         n = len(nums)
         answer = [1] * n
