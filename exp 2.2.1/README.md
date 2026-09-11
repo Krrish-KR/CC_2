@@ -2,6 +2,7 @@
 ## Problem Satement: 236 Lowest Common Ancestor of a Binary Tree
 
 class Solution:
+
     def lowestCommonAncestor(self, root, p, q):
         if root is None:
             return None
