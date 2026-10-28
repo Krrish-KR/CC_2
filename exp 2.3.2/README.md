@@ -2,6 +2,7 @@
 ## Problem Satement: 287 Find the Duplicate Number
 
 class Solution:
+
     def findDuplicate(self, nums):
         slow = nums[0]
         fast = nums[0]
